@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Redirect</title>
+    <meta http-equiv="refresh" content="0; URL=/" />
+    <script>
+        // Preserve the path for React Router
+        var pathname = window.location.pathname;
+        var redirectTo = '/' + pathname.slice(1);
+        window.location.replace(redirectTo);
+    </script>
+</head>
+<body>
+</body>
+</html>

@@ -5,7 +5,7 @@ import web3 from '../../assets/images/web3.webp';
 
 function Projects() {
   return (
-    <div className="bg-gray-50 min-h-screen py-10">
+    <div id="projects" className="bg-gray-50 min-h-screen py-10">
       {/* Project Header */}
       <header className="text-center mb-12">
         <h1 className="text-4xl font-extrabold text-blue-600 animate__animated animate__fadeIn animate__delay-1s">

@@ -27,7 +27,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-gray-50 min-h-screen py-10 px-6 sm:px-8">
+    <div id="contact" className="bg-gray-50 min-h-screen py-10 px-6 sm:px-8">
       {/* Header Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl font-semibold text-blue-600">Contact Me</h1>
@@ -92,9 +92,9 @@ function Contact() {
         <div className="mt-6">
           <p className="text-lg text-gray-700">You can also contact me via:</p>
           <div className="flex justify-center gap-8 mt-4">
-            <a href="mailto:john.doe@example.com" className="text-xl text-blue-600 hover:underline">Email</a>
-            <a href="https://www.linkedin.com/in/johndoe" className="text-xl text-blue-600 hover:underline">LinkedIn</a>
-            <a href="https://github.com/johndoe" className="text-xl text-blue-600 hover:underline">GitHub</a>
+            <a href="mailto:adityatangade027@gmail.com" className="text-xl text-blue-600 hover:underline">Email</a>
+            <a href="https://www.linkedin.com/in/aditya-tangade9356/" className="text-xl text-blue-600 hover:underline">LinkedIn</a>
+            <a href="https://github.com/adityatangade" className="text-xl text-blue-600 hover:underline">GitHub</a>
           </div>
         </div>
       </div>
